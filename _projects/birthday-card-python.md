@@ -1,11 +1,21 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: birthday card
+description: an e-birthday card written in python
+img: assets/img/proj-birthday-card-python/cake.png
+importance: 3
+category: fun
 ---
+
+In this project, I employed some stuff learned in a python book to create a birthday card for a friend that sings happy birthday to them (since I could not be present for the celebrations.)
+
+## How do
+
+text
+
+### a sub sub heading meaaan
+
+text2
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -45,7 +55,7 @@ To give your project a background in the portfolio page, just add the img tag to
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
 
 
 <div class="row justify-content-sm-center">

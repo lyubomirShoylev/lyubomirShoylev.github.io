@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: github page
+description: this github page --- a jekyll static blog
+img: assets/img/proj-github-page-jekyll-al-folio/jekyll.png
 category: fun
 ---
+
+A project describing the struggles of setting up a jekyll blog.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

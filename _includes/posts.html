@@ -1,0 +1,21 @@
+          
+          <div class="posts">
+            <h2>blog</h2>
+            {% if site.posts != blank -%} 
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+              {%- assign posts = site.posts -%} 
+              {% for item in posts limit: site.news_limit %} 
+                <tr>
+                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <td>
+                    <a class="post-title" href="{{ item.url | relative_url }}">{{ item.title }}</a> 
+                  </td>
+                </tr>
+              {%- endfor %} 
+              </table>
+            </div>
+          {%- else -%} 
+            <p>No posts so far...</p>
+          {%- endif %} 
+          </div>

@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: white dwarf solution
+description: a numerical solution to the white dwarf equation of state equations
+img: assets/img/proj-white-dwarf-sol/radius-mass.png
+importance: 2
+category: work
 ---
+
+This will be a report of the white dwarf project I did for the second year computing practicals at uni. It should describe the numerical apporach and the reported findings in a style similar to the one in the written report I handed in.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
