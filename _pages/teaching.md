@@ -1,12 +1,33 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
-nav_order: 5
+permalink: /teaching/
+description: Materials for courses I have taught.
+nav: false
+
+teaching_categories: [brezi, prep-olymp, pmgbs]
+
+teaching_dict:
+  brezi: Beli Brezi Astronomy School
+  prep-olymp: Preparation Camp for IAO, Team Bulgaria
+  pmgbs: High School of Natural Sciences and Mathematics 'Nicola Obreshkov'
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="post">
+  <article>
+    <div class="teaching">
+      {% for host in page.teaching_categories%}
+        <h3 class="teaching-host mt-4">{{ page.teaching_dict[host] }}</h3>
+        {%- assign categorized_teaching = site.teaching | where: "host", host -%}
+        {%- assign sorted_teaching = categorized_teaching | sort: "year" | reverse %}
+        <!-- Generate card for each course -->
+          {% for course in sorted_teaching %}
+            {% include teach-card.html%}
+          {% endfor %}
 
-Organize your courses by years, topics, or universities, however you like!
+
+
+      {% endfor %}
+    </div>
+  </article>
+</div>

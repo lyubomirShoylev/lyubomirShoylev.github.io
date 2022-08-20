@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Physics student at <a href='https://www.physics.ox.ac.uk/'>University of Oxford</a> and <a href='https://www.st-hildas.ox.ac.uk/'>St Hilda's College</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: # write stuff here
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+posts: true # includes a list of recent blog posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my webpage!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a third-year physics student at the University of Oxford. My interests are in the area of astrophysics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before coming to university, I was a student at the High School of Mathematics and Natural Sciences in Burgas, Bulgaria. During high school, I was an active participant in science olympiads. I achieved success in the area of astronomy and astrophysics, and had the pleasure of participating in [IAO 2017](http://www.issp.ac.ru/iao/) and [IOAA 2019](https://www.ioaastrophysics.org/).
+
+In parallel to this, I have organised and participated in several outreach events in Burgas in the years 2017-2020. I have also taught at the preparation camp for the Bulgarian team for IAO2021.
