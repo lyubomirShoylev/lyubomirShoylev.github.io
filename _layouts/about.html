@@ -49,6 +49,10 @@ layout: default
           <!-- Posts -->
           {%- include posts.html %}
           {%- endif %}
+          {% if page.posts -%}
+          <!-- Posts -->
+          {%- include posts.html %}
+          {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
