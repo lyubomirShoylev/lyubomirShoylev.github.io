@@ -91,6 +91,14 @@
         {{ content }}
       </d-article>
 
+      {% if page.github.onpage %}
+        <hr/>
+        <h3 id="GitHub Repo">GitHub Repo</h3>
+        <!-- Github card -->
+        {% assign repo = page.github.user | append: '/' | append: page.github.repo %}
+        {% include repository/repo.html repository=repo %}
+      {% endif %}
+
       <d-appendix>
         <d-footnote-list></d-footnote-list>
         <d-citation-list></d-citation-list>
