@@ -49,11 +49,7 @@ layout: default
           <!-- Posts -->
           {%- include posts.html %}
           {%- endif %}
-          {% if page.posts -%}
-          <!-- Posts -->
-          {%- include posts.html %}
-          {%- endif %}
-
+          
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
