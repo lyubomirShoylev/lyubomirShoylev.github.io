@@ -7,11 +7,7 @@ summary: |-
     I was the co-leader of the group together with [Zorry Belcheva](https://www.universiteitleiden.nl/en/staffmembers/zorry-belcheva#tab-1). The group makes spectroscopic observations of bright stars with semi-professional apparatus.
 
     During the day, I taught students data reduction for spectra, and during the night I taught practical knowledge about making observations. I also oversaw the work students conducted during the camp.
-detail: true
+detail: false
 host: brezi
 year: 2019
 ---
-
-I was the co-leader of the group together with [Zorry Belcheva](https://www.universiteitleiden.nl/en/staffmembers/zorry-belcheva#tab-1). The group makes spectroscopic observations of bright stars with semi-professional apparatus.
-
-During the day, I taught students data reduction for spectra, and during the night I taught practical knowledge about making observations. I also oversaw the work students conducted during the camp.

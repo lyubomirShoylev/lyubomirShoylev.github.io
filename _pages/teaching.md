@@ -2,13 +2,14 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Materials for courses I have taught.
+description: Information about courses I have taught.
 nav: false
 
-teaching_categories: [brezi, prep-olymp, pmgbs]
+teaching_categories: [brezi, oxf-compos, prep-olymp, pmgbs]
 
 teaching_dict:
   brezi: Beli Brezi Astronomy School
+  oxf-compos: COMPOS Programme, Oxford University
   prep-olymp: Preparation Camp for IAO, Team Bulgaria
   pmgbs: High School of Natural Sciences and Mathematics 'Nicola Obreshkov'
 ---

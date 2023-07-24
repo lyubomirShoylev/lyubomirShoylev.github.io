@@ -1,8 +1,12 @@
 ---
-layout: page
-title: white dwarf solution
-description: a numerical solution to the white dwarf equation of state equations
+layout: project
+title: white dwarf study
+description: a numerical solution to the white dwarf equation of state
 img: assets/img/proj-white-dwarf-sol/radius-mass.png
+github:
+    user: lyubomirShoylev
+    repo: co31-white-dwarf
+    onpage: true
 importance: 2
 category: work
 ---

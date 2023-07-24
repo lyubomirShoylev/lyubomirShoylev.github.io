@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: project
 title: github page
 description: this github page --- a jekyll static blog
 img: assets/img/proj-github-page-jekyll-al-folio/jekyll.png
+github:
+    user: lyubomirShoylev
+    repo: lyubomirShoylev.github.io
+    onpage: true
 category: fun
 ---
 

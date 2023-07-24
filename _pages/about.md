@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Physics student at <a href='https://www.physics.ox.ac.uk/'>University of Oxford</a> and <a href='https://www.st-hildas.ox.ac.uk/'>St Hilda's College</a>.
+# subtitle: Recent Theoretical Physics graduate from <a href='https://www.physics.ox.ac.uk/'>University of Oxford</a>.
 
 profile:
   align: right
@@ -16,10 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my webpage!
+Hi there, I'm Lyubo!
 
-I am a third-year physics student at the University of Oxford. My interests are in the area of astrophysics.
+I am a recent graduate of the University of Oxford in [Mathematical and Theoretical Physics](https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-and-theoretical-physics). I am currently interested in gravitation and gauge theories and studying their geometrical aspects. My plan is to pursue a doctorate in the field. More about my master's thesis [here]({% link _pages/projects.md %}).
 
-Before coming to university, I was a student at the High School of Mathematics and Natural Sciences in Burgas, Bulgaria. During high school, I was an active participant in science olympiads. I achieved success in the area of astronomy and astrophysics, and had the pleasure of participating in [IAO 2017](http://www.issp.ac.ru/iao/) and [IOAA 2019](https://www.ioaastrophysics.org/).
+I am also passionate about teaching and outreach in Physics and Astronomy. I have taught high school students at various stages; more about this [here]({% link _pages/teaching.md %}).
 
-In parallel to this, I have organised and participated in several outreach events in Burgas in the years 2017-2020. I have also taught at the preparation camp for the Bulgarian team for IAO2021.
+<font size="1"> This webpage is currently under construction, so ignore the rough corners.</font>
